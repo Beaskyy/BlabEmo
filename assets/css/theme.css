@@ -18868,7 +18868,8 @@ ul {
 
 .quote-mark {
   color: #FF6634;
-  font-size: 50px;
+  font-size: 30px;
+  padding: 5px;
 }
 
 .form-control {
