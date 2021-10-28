@@ -18849,13 +18849,12 @@ ul {
   color: #747474;
 }
 
-.lines {
+  .lines {
   background-image: url('../img/lines.png');
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: right;
-  width: 100%;
 }
+
 
 .quote {
   padding-top: 50px;
@@ -18888,6 +18887,9 @@ ul {
 
 
 @media screen and (max-width: 992px) {
+  .card-3 {
+  transform: translateY(-300px);
+}
   .btnn {
     margin: 10px 0;
   }
@@ -18905,11 +18907,20 @@ ul {
 
 
 @media screen and (min-width: 992px) {
-  .container {
-    padding: 0 60px;
+  .hero {
+  background-image: url('../img/hero.png');
+  background-repeat: no-repeat;
+  background-position: right;
+}
+  .hero-image {
+    display: none;
   }
   .call-text {
     padding-left: 91px;
+  }
+
+  .call {
+    margin: 0 60px;
   }
 
   .mail {
@@ -18917,14 +18928,19 @@ ul {
   right: 0%;
 }
 .bts {
-  transform:translate(445px,-59px);
+  transform:translate(495px,-59px);
 }
+
 .card-1 {
-  margin: 0 50px;
+  margin-right:150px;
+  transform: translateX(50px);
 }
 .card-2 {
   margin: 0 40px;
-  transform: translate(100px, 60px);
+  transform: translate(150px, 60px);
+}
+.card-3 {
+  transform: translate(-120px, 200px);
 }
 .account {
   margin-top: -20px;
@@ -18945,6 +18961,19 @@ ul {
   color: #8d8d8d;
   line-height: 17.07px;
 }
+
+.card-1 {
+  margin-right:150px;
+}
+.card-2 {
+  margin: 0 40px;
+  transform: translate(150px, -10px);
+}
+
+.hero-image {
+  transform: translateY(180px);
+}
+
 
 .card {
   border: 1px solid #FBFBFB;
@@ -19049,6 +19078,11 @@ ul {
 .partner {
   background: #FEFEFE;
   border-bottom: 1px solid #f8f8f8;
+  margin-left: auto; 
+  margin-right: auto;
+  text-align: justify;
+  -ms-text-justify: distribute-all-lines;
+  text-justify: distribute-all-lines;
 }
 
 
