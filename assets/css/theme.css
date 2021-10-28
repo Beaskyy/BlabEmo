@@ -18853,6 +18853,8 @@ ul {
   background-image: url('../img/lines.png');
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: right;
+  width: 100%;
 }
 
 .quote {
@@ -18885,6 +18887,23 @@ ul {
 }
 
 
+@media screen and (max-width: 992px) {
+  .btnn {
+    margin: 10px 0;
+  }
+
+  .card-right {
+    margin-left: -20px;
+  }
+  .call {
+    margin: 10px;
+  }
+  .call-text {
+    padding: 20px !important;
+  }
+}
+
+
 @media screen and (min-width: 992px) {
   .container {
     padding: 0 60px;
@@ -18898,7 +18917,17 @@ ul {
   right: 0%;
 }
 .bts {
-  transform:translate(448px,-59px);
+  transform:translate(445px,-59px);
+}
+.card-1 {
+  margin: 0 50px;
+}
+.card-2 {
+  margin: 0 40px;
+  transform: translate(100px, 60px);
+}
+.account {
+  margin-top: -20px;
 }
 
 }
