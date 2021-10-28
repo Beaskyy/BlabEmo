@@ -18849,11 +18849,31 @@ ul {
   color: #747474;
 }
 
+.lines {
+  background-image: url('../img/lines.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.quote {
+  padding-top: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  width: 344px;
+  line-height: 17px;
+}
+
+.quote-mark {
+  color: #FF6634;
+  font-size: 50px;
+}
+
 .form-control {
   background-color: #ffffff;
   border-radius: 6px;
   border: none;
-  padding: 16px ;
+  padding: 20px ;
 }
 
 .form-control::placeholder {
@@ -18862,8 +18882,8 @@ ul {
   font-size: 17px;
   line-height: 21px;
   color: #DEDEDE !important;
-
 }
+
 
 @media screen and (min-width: 992px) {
   .container {
@@ -18876,6 +18896,9 @@ ul {
   .mail {
   position: absolute;
   right: 0%;
+}
+.bts {
+  transform:translate(448px,-59px);
 }
 
 }
@@ -18944,13 +18967,11 @@ ul {
   font-weight: 400;
   color: #6c6c6c;
   font-size: 12px;
-  line-height: 15px;
 }
 
 .business {
   font-weight: 400;
   font-size: 11px;
-  line-height: 13px;
   color: #bfbfbf;
 }
 
@@ -18974,6 +18995,14 @@ ul {
   color: #8d8d8d;
 }
 
+.vector {
+  padding: 5px;
+}
+
+.card-right {
+  padding-left: 60px;
+}
+
 .btnn {
   padding: 16px 35px;
   color: #ffffff;
@@ -18984,10 +19013,15 @@ ul {
   border-radius: 4px;
 }
 
+.ctr {
+  padding: 16px;
+}
+
 .partner {
   background: #FEFEFE;
   border-bottom: 1px solid #f8f8f8;
 }
+
 
 .advert {
   border-radius: 4px;
