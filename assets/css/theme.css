@@ -18938,7 +18938,7 @@ ul {
 }
 .card-2 {
   margin: 0 40px;
-  transform: translate(150px, 60px);
+  transform: translate(150px, 60px) !important;
 }
 .card-3 {
   transform: translate(-120px, 200px);
