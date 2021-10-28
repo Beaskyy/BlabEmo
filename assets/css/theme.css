@@ -18853,6 +18853,7 @@ ul {
   background-image: url('../img/lines.png');
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: right;
 }
 
 
@@ -18928,7 +18929,7 @@ ul {
   right: 0%;
 }
 .bts {
-  transform:translate(495px,-59px);
+  transform:translate(402px,-59px);
 }
 
 .card-1 {
