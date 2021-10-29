@@ -18914,6 +18914,11 @@ ul {
   background-repeat: no-repeat;
   background-position: right;
 }
+.hero1 {
+  background-image: url('../img/hero1.png');
+  background-repeat: no-repeat;
+  background-position: right;
+}
   .hero-image {
     display: none;
   }
